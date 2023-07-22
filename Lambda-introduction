@@ -1,0 +1,13 @@
+Today we are going to learn the fundamentals of Serverless architecture. also we will understand the difference between Ec2 and Lambda functions? 
+Also we will understand when should we use ec2 and ehen should we use lambda functions. as a devops engineer we have both choices, we can use ec2 and lambda as well?
+
+1) What is lambda and what problem it will solve ?
+   When we discuss lambda we should remain two primary things.
+   1) Compute 2) Serverless.
+   Lambda funtions are belongs to the compute family but it solve the problem of serverless.
+   It belongs to same family which ec2 belongs too. but the primary difference between using ec2 and using lambda function follow the serverless architecture.
+   That means if you are spinningup a lambda function like you are going to aws console and create a lambda function aws will taking care of the server depends on appliction which we are running. 
+
+
+
+
