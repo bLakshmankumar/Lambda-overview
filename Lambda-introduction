@@ -46,6 +46,25 @@ Who will tell which approach we should follow(Serverless or Server(Ec2)
  This will taken care by developer team and architecture team they will decide which appraoch we shoul follow, because it depends alot on the application that is written. 
  we have to check with application teams is they written serverless approach or not. based on that we have to decide whether we should go with serverless or server.
 
+Devops Engineer role with lambda:
+---------------------------------
+As devops engineer our responsibility is When someone tell you to create this lambda function to create an infrastructure and etc.
+
+Advantages of lambda functions:
+-------------------------------
+> We can use the lambda function for cost optimization > while doing this why we will we go with lambda function and why we will not going with EC2 ?
+
+Cost-Optiization :
+-----------------
+  Cost optimization where we will take a look on all the aws resources that are there on the platform we will see if there is any unused resources. 
+  Eaither we can delete them or send some notifications through lambda function.
+
+  For examle :
+  -----------
+   There is one developer who is created a EBS volume in 30 days ago, but no one is using it. so as a devops engineer our responsibility is eather we have to delete that unused ebs volume. OR
+   Sendout a notification to the developer like you have created an EBS volume in 30 days ago and it's costing and no one is using it.
+   We can perform these kind of activities for all aws resources. we can create a lambda function or script that function does monitor all resources and report it back.
+
 
 
 
