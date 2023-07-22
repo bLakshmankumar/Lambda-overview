@@ -39,7 +39,7 @@ Note Points:
 If we create an ec2 instace we will get an Ip address and we can come to know where it's running and other things, here we are the owners for complete ec2 details,
 Here we can control public ip addresses and subnet groups, autoscaling and many things. But 
 
-In terms of lambda functions we don't get anything related to IP address and not even know where this instance is created and where this instance is hosted. we can't see the details of this lambda function.
+In terms of lambda functions we don't get anything related to IP address and not even know where this instance is created and where this instance is hosted. we can't see theses details on lambda functions.
 
 
 
