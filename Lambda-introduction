@@ -65,6 +65,15 @@ Cost-Optiization :
    Sendout a notification to the developer like you have created an EBS volume in 30 days ago and it's costing and no one is using it.
    We can perform these kind of activities for all aws resources. we can create a lambda function or script that function does monitor all resources and report it back.
 
+   Like write a lambda function and tell to aws cloudwatch to trigger this lambda function at everyday 10am, then it'll create the compute(server) by itself. and it'll tun your scripts,
+   Once the scripts run successfully then AWS lambda will automatically teardown the ec2 instances and your cost we don't have to bother about it. bcs it automatically created and automatically teardown.
+
+Where we can use Lambda Functions:
+----------------------------------
+   > Cost-optimizastion 
+   > Security/Compliance (if we have an security issues with gp2 volumes then we can write a script and trigger that script is any gp2 volume is using if uses by using sns send a notification.) OR if someone create a s3 bucket with public access.
+
+
 
 
 
