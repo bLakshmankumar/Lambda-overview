@@ -12,12 +12,12 @@ Example:
   If you wanna run python/nodejs application then what aws does is aws will automatically ceate a compute for us(like ec2) depending on your requirement.
   For Example:
     let's say you wrorte a calculation function for your application, so when your applucation is running what aws does is it'll create entire compute for us and once your application is done,
-    let's say user tried to perform 2+3, once this function is done what aws will does is, it'll taredown(remove) the instances, where as that is not a case with ec2. 
-    because ec2 we have to take care of taringdown the ec2. 
+    let's say user tried to perform 2+3, once this function is done what aws will does is, it'll teardown(remove) the instances, where as that is not a case with ec2. 
+    because ec2 we have to take care of tearingdown the ec2. 
 
 Difference b/w EC2 and Lambda Function:
 ---------------------------------------
-  Ec2: Here we are responsible for creating and maintaing servers for running and tairingdown the servers for our applications. But
+  Ec2: Here we are responsible for creating and maintaing servers for running and Scalingup and scaling down the servers for our applications. But
   Lambda: where as in the serverless architecture we are not responsible for the servers at all. aws will taking care of creating and managing the servers for our applications, it'll reducing a lot of efforts.
           but It'll create the servers for our applications once application task is done it'll automatically scale down the servers.
  
@@ -31,7 +31,7 @@ Difference b/w EC2 and Lambda Function:
    So if you are using the lambda function for this specific activity like the checkout form and receiving payments from user what happends is,
    when user sends an request only then aws creates an infrastructure for running this order and payment application, once payment/transaction is done,
    once the task is completed aws will scaledown the infrastructure that which it was created for this payment application. 
-  
+  Simply : Once the requirement is there aws will create that server for us, once the requirement is done aws will teardown that server for us. Everything is automatic here.
 
 
 
