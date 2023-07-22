@@ -31,6 +31,7 @@ Difference b/w EC2 and Lambda Function:
    So if you are using the lambda function for this specific activity like the checkout form and receiving payments from user what happends is,
    when user sends an request only then aws creates an infrastructure for running this order and payment application, once payment/transaction is done,
    once the task is completed aws will scaledown the infrastructure that which it was created for this payment application. 
+
   Simply : Once the requirement is there aws will create that server for us, once the requirement is done aws will teardown that server for us. Everything is automatic here.
 
 
