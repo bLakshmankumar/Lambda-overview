@@ -20,6 +20,17 @@ Difference b/w EC2 and Lambda Function:
   Ec2: Here we are responsible for creating and maintaing servers for running and tairingdown the servers for our applications. But
   Lambda: where as in the serverless architecture we are not responsible for the servers at all. aws will taking care of creating and managing the servers for our applications, it'll reducing a lot of efforts.
           but It'll create the servers for our applications once application task is done it'll automatically scale down the servers.
+ 
+  Example with sample requirment:
+  -------------------------------
+  Let's assume there is a food delivery platform, this food delivery platform lets say some user send an order request, he goes to the check out and he performs the payments and once the transaction is done,
+  customer will moveout from the application and his food order is placed.
+  
+  Solution(if we use lambda for this requirment):
+  -----------------------------------------------
+   So if you are using the lambda function for this specific activity like the checkout form and receiving payments from user what happends is,
+   when user sends an request only then aws creates an infrastructure for running this order and payment application, once payment/transaction is done,
+   once the task is completed aws will scaledown the infrastructure that which it was created for this payment application. 
   
 
 
