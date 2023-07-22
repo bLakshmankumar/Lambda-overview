@@ -1,4 +1,4 @@
-Today we are going to learn the fundamentals of Serverless architecture. also we will understand the difference between Ec2 and Lambda functions? 
+Today we are going to learn the fundamentals of Serverless architecture. also we will understand the difference between Ec2 and Lambda functions? (https://www.youtube.com/watch?v=5fTtmeCpSRw)
 Also we will understand when should we use ec2 and ehen should we use lambda functions. as a devops engineer we have both choices, we can use ec2 and lambda as well?
 
 1) What is lambda and what problem it will solve ?
@@ -14,6 +14,12 @@ Example:
     let's say you wrorte a calculation function for your application, so when your applucation is running what aws does is it'll create entire compute for us and once your application is done,
     let's say user tried to perform 2+3, once this function is done what aws will does is, it'll taredown(remove) the instances, where as that is not a case with ec2. 
     because ec2 we have to take care of taringdown the ec2. 
+
+Difference b/w EC2 and Lambda Function:
+---------------------------------------
+  Ec2: Here we are responsible for creating and maintaing servers for running and tairingdown the servers for our applications. But
+  Lambda: where as in the serverless architecture we are not responsible for the servers at all. aws will taking care of creating and managing the servers for our applications, it'll reducing a lot of efforts.
+          but It'll create the servers for our applications once application task is done it'll automatically scale down the servers.
   
 
 
