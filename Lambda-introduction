@@ -11,8 +11,8 @@ Also we will understand when should we use ec2 and ehen should we use lambda fun
 Example:
   If you wanna run python/nodejs application then what aws does is aws will automatically ceate a compute for us(like ec2) depending on your requirement.
   For Example:
-    let's say you wrorte a calculation function for your application, so when your applucation is running what aws does is it'll create entire compute for us and once your application is done,
-    let's say user tried to perform 2+3, once this function is done what aws will does is, it'll teardown(remove) the instances, where as that is not a case with ec2. 
+    let's say you wrorte a calculation function for your application, so when your applucation is running what AWS does is, it'll create an entire compute for us and once your application is done,
+    let's say user tried to perform 2+3, once this function is done what AWS will does is, it'll teardown(remove) the instances, where as that is not a case with ec2. 
     because ec2 we have to take care of tearingdown the ec2. 
 
 Difference b/w EC2 and Lambda Function:
