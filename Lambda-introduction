@@ -42,7 +42,7 @@ Here we can control public ip addresses and subnet groups, autoscaling and many 
 In terms of lambda functions we don't get anything related to IP address and not even know where this instance is created and where this instance is hosted. we can't see theses details on lambda functions.
 
 Who will tell which approach we should follow(Serverless or Server(Ec2)
-----------------------------------------------------------------------
+-----------------------------------------------------------------------
  This will taken care by developer team and architecture team they will decide which appraoch we shoul follow, because it depends alot on the application that is written. 
  we have to check with application teams is they written serverless approach or not. based on that we have to decide whether we should go with serverless or server.
 
